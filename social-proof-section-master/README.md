@@ -57,11 +57,6 @@ Screenshot
 
 <img src="My project.png" alt="">
 
-Links
-
-Solution URL: Add your Frontend Mentor solution here.
-Live Site URL: Add your deployed website here.
-
 Author
 
 Eman Mohammed
