@@ -61,7 +61,7 @@ Author
 
 Eman Mohammed
 
-GitHub: https://github.com/your-github-emu-1803
+GitHub: https://github.com/emu-1803
 Frontend Mentor: https://www.frontendmentor.io/profile/emu-1803
 
 
