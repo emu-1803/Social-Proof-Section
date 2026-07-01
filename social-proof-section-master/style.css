@@ -13,8 +13,6 @@
     --White: hsl(0, 0%, 100%);
     
 }
-.attribution { font-size: 0.6875rem; text-align: center;}
-.attribution a { color: hsl(228, 45%, 44%);}
 
 body{
     width: 100%;
@@ -23,16 +21,20 @@ body{
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat no-repeat; 
+    background-position: top left, bottom right; 
+    background-attachment: fixed;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1110px;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 50px 100px;
+    padding: 40px;
 }
 .top-section{
     display: flex;
@@ -40,10 +42,11 @@ body{
     justify-content: space-between;
 }
 h1{
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 700;
     color: var(--Very-Dark-Magenta);
     padding-bottom: 20px;
+    line-height: 48px;
 }
 p{
     color: var(--Dark-Grayish-Magenta);
@@ -51,10 +54,10 @@ p{
     line-height: 24px;
 }
 .left{
-    max-width: 45%;
+    max-width: 35%;
 }
 .right{
-    max-width: 55%;
+    max-width: 65%;
     display:flex;
     flex-direction: column;
     gap: 20px;
@@ -133,6 +136,7 @@ p{
     .top-section{
         flex-direction: column;
         text-align: center;
+        justify-content: center;
         gap:20px;
     }
     .right{
@@ -155,6 +159,10 @@ p{
     }
     .left, .right{
         max-width: 100%;
+    }
+    .attribution{
+    margin-top:20px;
+    text-align:center;
     }
 }
 
